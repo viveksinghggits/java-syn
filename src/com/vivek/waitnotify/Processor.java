@@ -12,7 +12,7 @@ public class Processor {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Resumed");
+            System.out.println("Producer is Resumed");
             /******
             resource efficient, can only be called from inside the synchronized block
                 it hands over the lock (lose control) and doesnt resume until two things happen
